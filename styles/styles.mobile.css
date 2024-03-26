@@ -1,0 +1,133 @@
+@import 'variables.css';
+
+@media only screen and (max-width: 320px) {
+    .content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--wenge-brown);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+}
+
+.content,
+footer {
+    padding: 0 30px 40px 30px;
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    color: var(--dark-charcoal);
+    line-height: 36px;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    color: var(--brandy-red);
+    font-size: 28px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.prep-time-container {
+    background-color: var(--snow);
+    padding: 10px 40px 10px 10px;
+    border-radius: 15px;
+}
+
+.prep-time {
+    color: var(--dark-raspberry);
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+ul,
+ol {
+    color: var(--dark-raspberry);
+    font-size: 16px;
+    line-height: 25px;
+}
+
+ol {
+    font-weight: bold;
+    padding-left: 15px;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 15px;
+
+}
+
+ol li {
+    padding-left: 15px;
+}
+
+li span {
+    color: var(--wenge-brown);
+    font-weight: normal;
+}
+
+hr {
+    fill: var(--white-coffee);
+    height: 1px;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+tr {
+    border-bottom: 1px solid var(--white-coffee);
+}
+
+table,
+tr,
+td {
+
+    border-collapse: collapse;
+    padding: 15px 10px;
+}
+
+.column-1 {
+    color: var(--wenge-brown);
+    width: 30%;
+    padding-right: 100px;
+}
+
+.column-2 {
+    color: var(--dark-raspberry);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+footer {
+    padding-bottom: 20px;
+}
+
+a {
+    color: var(--dark-raspberry);
+}
